@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  background: rgb(63, 63, 63);
+}
+
+.container {
+  display: block;
+  width: 375px;
+  height: 677px;
+  padding: 70px 30px 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.IdCard {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 -10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+.IdCard__img {
+  height: 200px;
+  background: url("/assets/images/pvstec.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.IdCard__info {
+  background: #fff;
+  text-align: center;
+  padding: 25px 25px 40px;
+}
+.IdCard__title {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 0.4em;
+}
+.IdCard__text {
+  font-size: 0.9em;
+  color: #999;
+  font-weight: 300;
+}
+
+.social-block {
+  text-align: center;
+}
+
+a {
+  display: block;
+  /* width: 50px; */
+  /* height: 50px; */
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 40%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: white;
+}
+
+.fs #hackthebox {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+  box-shadow: 10px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  background: url("https://api.iconify.design/simple-icons:hackthebox.svg")
+    no-repeat center center / contain;
+}
