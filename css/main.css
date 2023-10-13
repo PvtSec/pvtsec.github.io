@@ -82,6 +82,11 @@ a {
   transition: 0.3s;
 }
 
+.fa-file {
+  background: #B00020;
+  color: white;
+}
+
 .fa-github {
   background: #000000;
   color: white;
